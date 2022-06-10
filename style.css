@@ -176,6 +176,7 @@ border-radius: 50%;
         
     }
 }
+
 @media screen and (max-width:1054px) {
     .nav-link{
         font-size: 15px;
