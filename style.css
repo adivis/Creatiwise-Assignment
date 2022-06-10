@@ -151,6 +151,15 @@ border-radius: 50%;
     justify-content: center;
     margin: 0;
 }
+.profile-name{
+    padding: 2px;
+}
+.hidden-arrow{
+    color: #00913B;
+}
+.fa-bars, .dropdown{
+    margin-bottom: 5px;
+}
 @media screen and (max-width:1180px){
     .weekdays div {
        
@@ -230,8 +239,16 @@ border-radius: 50%;
         font-size: 12px;
         padding-right: 5px;
     }
+    .profile-name, .hidden-arrow{
+        font-size: 15px;
+
+    }
 }
 @media screen and (max-width:530px) {
+    .profile-name, .hidden-arrow{
+        font-size: 13px;
+
+    }
     .modal-dialog{
         max-width: 95vw !important;
     }
@@ -306,6 +323,10 @@ border-radius: 50%;
        .modal-footer button{
         width: 100%;
        }
+       .profile-name, .hidden-arrow{
+        font-size: 10px;
+
+    }
 }
 @media screen and (max-width:250px){
     .schedulebtn{
@@ -315,4 +336,5 @@ border-radius: 50%;
     input[type=search]{
         font-size: 10px;
     }
+  
 }
