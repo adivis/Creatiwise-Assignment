@@ -160,6 +160,9 @@ border-radius: 50%;
 .fa-bars, .dropdown{
     margin-bottom: 5px;
 }
+.form-check-input{
+    border-radius: 50% !important;
+}
 @media screen and (max-width:1180px){
     input[type=checkbox]{
         width: 15px;
@@ -321,6 +324,7 @@ border-radius: 50%;
     input[type=checkbox]{
         width: 8px;
         height: 8px;
+        
     }
     .maindiv button{
        
