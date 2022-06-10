@@ -161,6 +161,10 @@ border-radius: 50%;
     margin-bottom: 5px;
 }
 @media screen and (max-width:1180px){
+    input[type=checkbox]{
+        width: 15px;
+        height: 15px;
+    }
     .weekdays div {
        
         padding: 10px 15px;
@@ -191,8 +195,16 @@ border-radius: 50%;
         border: none;
         
     }
+    input[type=checkbox]{
+        width: 13px;
+        height: 13px;
+    }
 }
 @media screen and (max-width:730px) {
+    input[type=checkbox]{
+        width: 10px;
+        height: 10px;
+    }
     .side .navbar-brand{
         font-size: 15px;
     }
@@ -306,6 +318,10 @@ border-radius: 50%;
     }
 }
 @media screen and (max-width:365px){
+    input[type=checkbox]{
+        width: 8px;
+        height: 8px;
+    }
     .maindiv button{
        
         font-size: 8px;
